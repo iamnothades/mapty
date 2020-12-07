@@ -29,10 +29,7 @@ navigator.geolocation.getCurrentPosition(
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
-    L.marker(coords)
-      .addTo(map)
-      .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-      .openPopup();
+    L.marker(coords).addTo(map).bindPopup('Workout Location.').openPopup();
   },
   function () {
     alert('could not get your position');
