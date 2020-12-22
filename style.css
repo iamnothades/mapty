@@ -2,10 +2,10 @@
   --color-brand--1: #ffb545;
   --color-brand--2: #00c46a;
 
-  --color-dark--1: #726da8;
-  --color-dark--2: #7d8cc4;
-  --color-light--1: #a0d2db;
-  --color-light--2: #bee7e8;
+  --color-dark--1: #2d3439;
+  --color-dark--2: #42484d;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
   --color-light--3: rgb(214, 222, 224);
 }
 
@@ -28,7 +28,7 @@ body {
   height: 100vh;
   overscroll-behavior-y: none;
 
-  background-color: #594157;
+  background-color: #fff;
   padding: 2.5rem;
 
   display: flex;
